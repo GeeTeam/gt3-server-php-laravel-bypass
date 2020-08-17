@@ -66,7 +66,7 @@ laravel版本|5.5.8
 
 ### 3.3.1 下载sdk demo
 ```
-git clone https://github.com/GeeTeam/gt3-server-php-laravel-sdk.git
+git clone https://github.com/GeeTeam/gt3-server-php-laravel-bypass.git
 ```
 
 ### 3.3.2 配置密钥，修改请求参数
