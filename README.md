@@ -8,7 +8,7 @@ ByPass方案是指在现有的行为验证Failback模式上，基于您的业务
 
 ## 1.2 方案说明
 1. 极验新增一个独立于行为验证现有的通讯流程之外的服务可用性监控接口，客户可以通过轮询机制请求该接口，通过接口的返回状态确认当前验证服务可用性。
-2. 极验提供标准ByPass开发Demo示例（本Demo项目是基于Java语言），Demo包含了通过监控服务可用性接口实现验证模块的自动切换的完整逻辑，客户可以参考Demo基于自身业务实际情况，实现验证模块的ByPass逻辑设计。
+2. 极验提供标准ByPass开发Demo示例（本Demo项目是基于Php语言），Demo包含了通过监控服务可用性接口实现验证模块的自动切换的完整逻辑，客户可以参考Demo基于自身业务实际情况，实现验证模块的ByPass逻辑设计。
 
 # 2.服务可用性接口文档
 
@@ -112,7 +112,7 @@ crontab -e
 
 ### 3.3.5 运行demo
 ```
-cd gt3-server-php-laravel-sdk
+cd gt3-server-php-laravel-bypass
 sudo cp .env.example .env
 sudo composer install
 sudo php artisan serve --host=0.0.0.0 --port=8889
